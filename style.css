@@ -327,14 +327,17 @@ footer p {
   }
   .network { /* les icones */
     font-size: 2em;
-    padding: 10x 20px; 
+    padding: 10px 20px; 
   }
 }
 @media screen and (max-width: 770px) {
   .navbar {
     display: none !important; /* on met important car une classe bootstrap */
   }
-  
+  /*.fixed-top{
+    position: unset !important;
+  }*/
+ 
   h1, h2 {
     font-size: 2em;
   }
@@ -357,12 +360,11 @@ footer p {
   }
    
  footer h3 {
-
-  font-size: 2 em;
+ font-size: 2em;
  }
   .network { /* les icones */
-    font-size: 1.4em;
-    padding: 14px 20px;
+    font-size: 1em;
+     
   }
   input, textarea {
     width: 300px;
